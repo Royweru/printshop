@@ -1,11 +1,12 @@
+import Navbar from "./components/navigation"
 
 
 function App() {
 
   return (
     <>
-     <div className=" text-4xl font-bold font-mono">
-      MAIN PAGE
+     <div className=" w-full xl:pt-[5.75rem] overflow-hidden pt-[4.5rem]">
+      <Navbar />
      </div>
     </>
   )

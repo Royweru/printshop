@@ -8,38 +8,35 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
+          1: "#000000",
+          2: "#74BAF1",
+          3: "#59B0F4",
+          4: "#0C8EF3",
+          5: "#0B7DD6",
           6: "#FF98E2",
+          7:"#070909"
         },
         stroke: {
           1: "#26242C",
         },
         n: {
           1: "#FFFFFF",
-          2: "#CAC6DD",
-          3: "#ADA8C3",
-          4: "#757185",
-          5: "#3F3A52",
-          6: "#252134",
-          7: "#15131D",
-          8: "#0E0C15",
-          9: "#474060",
-          10: "#43435C",
-          11: "#1B1B2E",
-          12: "#2E2A41",
-          13: "#6C7275",
-          14:"#f15332",
-          15:"#71f132"
+          2: "#E9EDF0",
+          3: "#0A1619",
+          4: "#E4E5E6",
+          5: "#C9CBCD",
+          6: "#B8B9BA",
+          7: "#A0A1A2",
+          8: "#052239",
+          9: "#5C6B76",
+      
         },
       },
       fontFamily: {
-        sans: ["var(--font-sora)", ...fontFamily.sans],
-        code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
+        nunito: ["var(--font-nunito)", ...fontFamily.sans],
+        roboto: "var(--font-roboto)",
+        poetsen: "var(--font-poetsen)",
+        playfair: "var(--font-playfair)",
       },
       letterSpacing: {
         tagline: ".15em",
