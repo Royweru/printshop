@@ -2,6 +2,6 @@
 
 export const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className=" text-4xl font-semibold font-playfair">HeroSECTION</div>
   )
 }
