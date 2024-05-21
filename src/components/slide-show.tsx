@@ -32,7 +32,7 @@ export const SlideShow = ({ images }:{
     <div className="relative h-[450px] group cursor-pointer rounded-lg">
       <div className="absolute inset-0 flex items-center justify-center">
         <img
-          className="max-h-full w-full hover:opacity-100 rounded-lg"
+          className=" h-[350px] w-full hover:opacity-100 rounded-xl"
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
         />
