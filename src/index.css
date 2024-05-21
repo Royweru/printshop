@@ -38,7 +38,7 @@ body {
 }
 /* Custom scroll bar */
 .custom-scrollbar::-webkit-scrollbar {
-  height: 4px;
+  height: 5px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {

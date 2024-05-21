@@ -77,7 +77,7 @@ export default {
       addBase({});
       addComponents({
         ".container": {
-          "@apply max-w-[74.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[84.5rem]":
+          "@apply max-w-[68.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[73.5rem]":
             {},
         },
         ".hero": {
