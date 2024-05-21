@@ -11,7 +11,7 @@ export const Hero = () => {
 
   return (
     <div className=" w-full hero font-nunito">
-      <div className=" grid md:grid-cols-2 gap-3 grid-cols-1 w-full relative xl:px-6 md:px-4 px-0">
+      <div className=" grid md:grid-cols-2 gap-3 grid-cols-1 w-full relative xl:px-2 md:px-4 px-0">
       <HeroContent />
       <SlideShow images={heroImages} />
       </div>
