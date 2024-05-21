@@ -36,5 +36,19 @@ body {
   margin: 0;
   min-height: 100vh;
 }
+/* Custom scroll bar */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgb(79, 79, 243); /* Customize scroll thumb color */
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #edf2f7; /* Customize scroll track color */
+}
+
 
 

@@ -4,8 +4,8 @@ interface ServiceBoxProps{
 }
 export const ServiceBox = ({service}:ServiceBoxProps) => {
   return (
-    <div className="  font-poetsen font-semibold col-span-1">   
-     <div className="  p-6 rounded-lg shadow-lg text-center">
+    <div className="  font-poetsen col-span-1 ">   
+     <div className=" bg p-6 rounded-lg shadow-lg text-center bg-n-4">
     <div className="flex justify-center items-center mb-4">
       <div className="bg-white rounded-full p-4">
         {service.icon}
