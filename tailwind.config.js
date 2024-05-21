@@ -81,7 +81,7 @@ export default {
             {},
         },
         ".hero": {
-          "@apply max-w-[78.5rem] mx-auto px-5 md:px-8 lg:px-12 xl:max-w-[88.5rem]":
+          "@apply max-w-[78.5rem] mx-auto px-5 md:px-8 lg:px-12 xl:max-w-[85.5rem]":
             {},
         },
         ".h4": {
@@ -102,17 +102,7 @@ export default {
         },
         ".caption": {
           "@apply text-sm": {},
-        },
-        ".tagline": {
-          "@apply font-grotesk font-light text-xs tracking-tagline uppercase":
-            {},
-        },
-        ".quote": {
-          "@apply font-code text-lg leading-normal": {},
-        },
-        ".button": {
-          "@apply font-code text-xs font-bold uppercase tracking-wider": {},
-        },
+        }
       });
       addUtilities({
         ".tap-highlight-color": {

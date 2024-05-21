@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <div className=" w-full xl:pt-[4rem] overflow-hidden pt-[3.0rem]">
+     <div className=" w-full xl:pt-[4.5rem] overflow-hidden pt-[3.0rem]">
       <Navbar />
       <Hero />
      </div>

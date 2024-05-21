@@ -40,7 +40,7 @@ const Navbar = () => {
         <nav className="  w-full relative hidden md:block bg-transparent h-full">
            <ul className=" w-full flex justify-between px-6 ">
             {navigation.map(navig=>(
-              <a href="" key={navig.id} >
+              <a href={navig.path} key={navig.id} >
                   <li className=" text-n-1 font-semibold font-playfair
                text-sm cursor-pointer hover:text-color-4">
                  {navig.label}
