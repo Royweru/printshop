@@ -15,7 +15,7 @@ const Footer = () => {
      grid grid-cols-2 md:grid-cols-5 
      md:gap-2 gap-4">
           <div className=" md:col-span-2 md:px-12 ">
-            <img src=".../assets" alt="" />
+           <img src="..../assets/logo.jpg" alt="" />
           </div>
      </div>
       </div>
