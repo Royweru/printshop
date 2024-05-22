@@ -1,3 +1,4 @@
+import Footer from "./components/footer"
 import { Hero } from "./components/hero"
 import Navbar from "./components/navigation"
 import ScrollProducts from "./components/products"
@@ -18,6 +19,7 @@ function App() {
       <ScrollProducts />
       <Heading heading="Gallery"/>
       <TiedGallery />
+      <Footer />
      </div>
     </>
   )
