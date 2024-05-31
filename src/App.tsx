@@ -1,25 +1,23 @@
+import { Route,Routes } from "react-router-dom"
 import Footer from "./components/footer"
-import { Hero } from "./components/hero"
+import Layout from "./components/layout"
 import Navbar from "./components/navigation"
-import ScrollProducts from "./components/products"
-import { Services } from "./components/services"
-import { Heading } from "./components/shared/heading"
-import TiedGallery from "./components/tied-gallery"
+import Home from "./components/home"
+import { IndividualProduct } from "./components/products/individual"
+
 
 function App() {
 
   return (
     <>
-     <div className=" w-full xl:pt-[4.5rem] overflow-hidden pt-[4.8rem]">
-      <Navbar />
-      <Hero />
-      <Heading heading="Services"/>
-      <Services />
-      <Heading heading=" Products"/>
-      <ScrollProducts />
-      <Heading heading="Gallery"/>
-      <TiedGallery />
-      <Footer />
+     <div className=" w-full xl:pt-[6.5rem] overflow-hidden pt-[5.8rem]">
+      <Routes>
+      <Route path="/" element={<Layout />}>
+          <Route index element={<Home />}/>
+          <Route path="/product/:slug" element={<IndividualProduct/>}/>
+       </Route>
+      </Routes>
+    
      </div>
     </>
   )

@@ -2,7 +2,7 @@ import { ServiceDetails } from "../../data/service-details"
 import { ServiceBox } from "./service-box"
 export const Services = () => {
   return (
-    <div className=" container   ">
+    <div className=" container " id="services">
       <div className=" relative 
       w-full lg:px-2 md:px-2 
       px-1 my-3  md:py-2 xl:gap-2

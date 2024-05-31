@@ -21,7 +21,7 @@ const images: Image[] = [
 
 const TiedGallery: React.FC = () => {
   return (
-    <div className="container mx-auto px-4 py-3 ">
+    <div className="container mx-auto px-4 py-3 " id='gallery'>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
         {images.map((image, index) => (
           <div key={index} className="relative overflow-hidden rounded-lg">

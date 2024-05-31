@@ -38,12 +38,12 @@ body {
 }
 /* Custom scroll bar */
 .custom-scrollbar::-webkit-scrollbar {
-  height: 5px;
+  height: 12px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: rgb(79, 79, 243); /* Customize scroll thumb color */
-  border-radius: 4px;
+  background-color: rgb(5, 5, 78); /* Customize scroll thumb color */
+  border-radius: 10px
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {

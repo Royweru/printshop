@@ -21,10 +21,10 @@ const Navbar= () => {
   }, []);
   // Replace javascript:void(0) path with your path
   const navigation = [
-      { title: "About", path: "javascript:void(0)" },
-      { title: "Poduct", path: "javascript:void(0)" },
+      { title: "About", path: "#top" },
+      { title: "Product", path: "#products" },
       { title: "Services", path: "#services" },
-      { title: "Blog", path: "#" }
+      { title: "Gallery", path: "#gallery" }
   ]
 
   return (

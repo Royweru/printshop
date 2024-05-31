@@ -10,7 +10,9 @@ const Footer = () => {
      font-poetsen  
      gap-y-3
     font-semibold  
-     py-12
+     md:py-8
+     sm:py-5
+     py-6
      bg-n-3 
     rounded-t-md
      border-t-[1.5px]
@@ -52,11 +54,16 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className=" col-span-2 px-2 flex justify-center items-center">
+        {/* <div className=" col-span-2 px-2 flex justify-center items-center">
           <p className=" text-xs font-light font-nunito text-n-4">
              2024 all rights maintained
           </p>
-        </div>
+        </div> */}
+      </div>
+      <div className=" w-full flex justify-start items-center ">
+      <p className=" text-xs font-light font-nunito text-n-4">
+             2024 all rights maintained
+          </p>
       </div>
     </div>
   );

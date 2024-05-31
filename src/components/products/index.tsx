@@ -16,7 +16,7 @@ const products = [
 
 const ScrollProducts: React.FC = () => {
   return (
-    <div className="container mx-auto py-4 px-10 ">
+    <div className="container mx-auto py-4 px-10 " id='products'>
       <div className="overflow-x-auto custom-scrollbar gap-y-4">
         <div className="flex space-x-4">
           {products.map(product => (
