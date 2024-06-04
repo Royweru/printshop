@@ -1,7 +1,5 @@
-
-
 export const IndividualProduct = () => {
   return (
-    <div>Individual</div>
-  )
-}
+    <div className=" min-h-screen container md:p-10 text-xl">CONTAINER</div>
+  );
+};

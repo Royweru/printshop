@@ -2,6 +2,7 @@ import { footerDetails } from "../../data/constants";
 import { MarqueeText } from "./marquee";
 
 const Footer = () => {
+  const now = new Date().getFullYear();
   return (
     <div
       className=" w-full 
@@ -60,10 +61,10 @@ const Footer = () => {
           </p>
         </div> */}
       </div>
-      <div className=" w-full flex justify-start items-center ">
-      <p className=" text-xs font-light font-nunito text-n-4">
-             2024 all rights maintained
-          </p>
+      <div className=" border-t-[1.5px] w-full flex justify-center py-2 items-center ">
+        <p className=" text-xs font-light font-nunito text-n-4">
+          &#169;{now} all rights maintained
+        </p>
       </div>
     </div>
   );
