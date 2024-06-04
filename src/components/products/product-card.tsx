@@ -1,12 +1,16 @@
+import { useNavigate } from "react-router-dom";
 export const ProductCard = ({
   product,
 }: {
   product: { id: number; name: string; image: string; price: string };
 }) => {
+  const navigate = useNavigate();
   return (
     <div
       className=" w-48 flex-shrink-0 bg-white p-4 rounded-lg shadow-lg flex flex-col group cursor-pointer"
-      onClick={() => {}}
+      onClick={() => {
+        navigate(`/product/${product.name}`);
+      }}
     >
       <div className=" w-full p-0 group-hover:scale-105">
         <img
