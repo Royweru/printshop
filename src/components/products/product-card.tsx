@@ -26,7 +26,9 @@ export const ProductCard = ({
           className=" w-full rounded-t-lg bg-cover bg-center h-32"
         />
       </div>
-      <div className=" font-semibold font-nunito px-7">{product.title}</div>
+      <div className=" font-semibold font-nunito px-0 w-full">
+        {product.title}
+      </div>
       <p className="text-gray-600 ">{product.price}</p>
     </div>
   );

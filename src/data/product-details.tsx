@@ -20,12 +20,12 @@ export const productsDetails: {
     ],
     description:
       "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-    slug: "fanta mug ",
+    slug: "fanta mug",
   },
   {
     id: 2,
     price: "Kes 700",
-    title: "tshirt printing",
+    title: "Tshirt printing",
     thumbnail:
       "https://images.pexels.com/photos/1207918/pexels-photo-1207918.jpeg",
     images: [
@@ -35,7 +35,7 @@ export const productsDetails: {
     ],
     description:
       "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-    slug: "tshirt printing",
+    slug: "Tshirt printing",
   },
   {
     id: 3,
