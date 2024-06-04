@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <nav
       className={`  w-full md:border-0  fixed top-0 left-0 z-50 backdrop-blur-md bg-n-
-      ${scrolled ? "bg-n-8  opacity-90" : "bg-n-3 "}  `}
+      ${scrolled ? "bg-n-8  opacity-90" : "bg-n-3 "} `}
     >
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
