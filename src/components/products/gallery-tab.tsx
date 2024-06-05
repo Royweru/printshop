@@ -1,16 +1,13 @@
-import { useParams } from "react-router-dom";
-import { productsDetails } from "../../data/product-details";
-import ProductGallery from "./product-gallery";
-import ImageCarousel from "./image-carousel";
 import { Tabs } from "../ui/tabs";
 
-export const IndividualProduct = () => {
+export function TabsDemo() {
   const tabs = [
     {
       title: "Product",
       value: "product",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>Product Tab</p>
           <DummyContent />
         </div>
       ),
@@ -20,6 +17,7 @@ export const IndividualProduct = () => {
       value: "services",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>Services tab</p>
           <DummyContent />
         </div>
       ),
@@ -29,6 +27,7 @@ export const IndividualProduct = () => {
       value: "playground",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>Playground tab</p>
           <DummyContent />
         </div>
       ),
@@ -38,6 +37,7 @@ export const IndividualProduct = () => {
       value: "content",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>Content tab</p>
           <DummyContent />
         </div>
       ),
@@ -47,28 +47,24 @@ export const IndividualProduct = () => {
       value: "random",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>Random tab</p>
           <DummyContent />
         </div>
       ),
     },
   ];
-  const { slug } = useParams();
-  const product = productsDetails.find((item) => item.slug === slug);
+
   return (
-    <div
-      className=" min-h-screen container md:px-8 my-2 bg-n-8
-       rounded-xl lg:py-2 py-2 grid md:grid-cols-2 lg:grid-cols-3 md:gap-4 lg:gap-1"
-    >
-      <div className=" w-full col-span-1 md:col-span-1 lg:col-span-2 ">
-        <Tabs tabs={tabs} />
-      </div>
+    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
+      <Tabs tabs={tabs} />
     </div>
   );
-};
+}
+
 const DummyContent = () => {
   return (
     <img
-      src="https://images.pexels.com/photos/1516983/pexels-photo-1516983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      src="/linear.webp"
       alt="dummy image"
       width="1000"
       height="1000"
